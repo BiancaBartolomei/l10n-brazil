@@ -38,13 +38,13 @@
     <!--Cotações-->
     <record model="ir.actions.act_window"
             id="action_l10n_br_sale_order_cotacao">
-        <field name="name">Cotação</field>
+        <field name="name">Cotações</field>
         <field name="res_model">sale.order</field>
         <field name="view_mode">tree,form</field>
         <field name="domain">[('state','in',('draft','sent'))]</field>
     </record>
     <record model="ir.ui.menu" id="menu_l10n_br_sale_order_cotacao">
-        <field name="name">Cotação</field>
+        <field name="name">Cotações</field>
         <field name="parent_id" ref="sales_team.menu_sales"/>
         <field name="action" ref="action_l10n_br_sale_order_cotacao"/>
         <field name="sequence" eval="3"/>
