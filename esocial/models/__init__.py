@@ -27,3 +27,4 @@ from . import codificacao_acidente_trabalho
 from . import tipo_arquivo_esocial
 from . import tipo_lotacao_tributaria
 from . import fatores_meio_ambiente
+from . import lotacao_classificacao_tributaria
