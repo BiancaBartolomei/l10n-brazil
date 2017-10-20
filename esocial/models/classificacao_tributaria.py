@@ -18,14 +18,18 @@ class AgenteCausador(models.Model):
          'Este código já existe !'
          )
     ]
-
+    codigo_tributaria_classificacao_ids = fields.Many2many(
+        'esocial.codigo_aliquota',
+        string='Codigo',
+        relation='tributaria_classificacao_ids',
+    )
     codigo = fields.Char(
         size=2,
-        string='Codigo',
+        string='Código',
         required=True,
     )
     descricao = fields.Char(
-        string='Nome',
+        string='Classificação Tributária',
         required=True,
     )
     name = fields.Char(

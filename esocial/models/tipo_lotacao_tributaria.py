@@ -37,6 +37,7 @@ class TipoLotacaoTributaria(models.Model):
         store=True,
     )
 
+
     @api.onchange('codigo')
     def _valida_codigo(self):
         for lotacao in self:

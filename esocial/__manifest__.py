@@ -23,6 +23,7 @@
     },
     'data': [
         'views/menus.xml',
+        'views/codigo_aliquota_FPAS.xml',
         'views/categoria_trabalhador.xml',
         'views/financiamento_aposentadoria.xml',
         'views/natureza_rubrica.xml',
@@ -43,9 +44,9 @@
         'views/motivo_cessacao.xml',
         'views/tipo_beneficio.xml',
         'views/codificacao_acidente_trabalho.xml',
-        'views/lotacao_classificacao_tributaria.xml',
         'views/fatores_meio_ambiente.xml',
         'data/natureza_lesao.xml',
+        'data/codigo_aliquota_FPAS.xml',
         'data/tipo_arquivo_esocial.xml',
         'data/tipo_lotacao_tributaria.xml',
         'data/categoria_trabalhador.xml',
@@ -67,7 +68,7 @@
         'data/tipo_beneficio.xml',
         'data/codificacao_acidente_trabalho.xml',
         'data/fatores_meio_ambiente.xml',
-        'data/lotacao_classificacao_tributaria.xml',
+
     ],
     'application': True,
 }
